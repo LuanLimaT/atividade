@@ -14,20 +14,13 @@ Gerenciamento de Rios:
 
 Cadastro de rios com informações de nome, nascente, país e extensão no continente.
 Listagem de todos os rios cadastrados.
+
 🚀 Tecnologias Utilizadas
 Backend: Flask
 Banco de Dados: MongoDB
 Frontend: HTML e CSS (para uma interface simples e responsiva)
 Controle de Versão: Git
-📂 Estrutura do Projeto
-plaintext
-Copiar código
-├── app.py               # Arquivo principal do Flask com as rotas
-├── templates/           # Diretório dos arquivos HTML
-│   ├── index.html       # Página inicial do projeto
-│   ├── listagem.html    # Página para listagem de dados
-│   └── ...              # Outros templates
-└── README.md            # Documentação do projeto
+
 ⚙️ Instalação e Configuração
 Clone o repositório:
 
