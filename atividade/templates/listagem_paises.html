@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista</title>
+</head>
+<body>
+    <ul>
+        {% for pais in paises %}
+        <li>
+            {{pais.nome }} - {{pais.continente }} - {{pais.populacao }} - {{pais.pib}} - {{pais.expectativa}}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

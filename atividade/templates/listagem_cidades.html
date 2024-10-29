@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Cidades</title>
+</head>
+<body>
+    <h2>Lista de Cidades</h2>
+    <ul>
+        {% for cidade in cidades %}
+        <li>
+            {{ cidade.nome }} - {{ cidade.pais }} - População: {{ cidade.populacao }} Milhões - Capital: {{ 'Sim' if cidade.capital else 'Não' }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

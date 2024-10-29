@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Rios</title>
+</head>
+<body>
+    <h2>Lista de Rios</h2>
+    <ul>
+        {% for rio in rios %}
+        <li>
+            {{ rio.nome }} - Nascente: {{ rio.nascente }} - País: {{ rio.pais }} - Continente: {{ rio.continente }} Km
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
